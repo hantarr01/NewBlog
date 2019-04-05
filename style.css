@@ -1,0 +1,57 @@
+/*
+Theme Name:NewBlog
+Theme URI:***
+Author: hantarr01
+Author URI: //www.quackit.com/
+Description:New project in WordPress
+Version: 0.1
+Template:NewMaket
+License: GNU General Public License v2 or later
+License URI: //www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+background-color:white;
+}
+
+header{
+
+}
+
+.evangilisticBorder{
+  width: 100%;
+  height: 10px;
+  background-color:#71bf44;
+}
+
+.buttonsMenu{
+  display: table;
+  width: 100%;
+  height: 60px;
+  background-color:#222222;
+}
+
+.buttonsMenu a{
+  float: right;
+  color: white;
+  margin-right: 30px;
+}
+
+.titleBlock{
+  width: 100%;
+  height:300px;
+  background-color:#333333;
+}
+
+.ballLogo{
+   width: 200px;
+  height:200px;
+  border-radius:1000px;
+  background-color:#71bf44;
+  position: absolute;
+  top:-50px;
+  left:17%; 
+}
