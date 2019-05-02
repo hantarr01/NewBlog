@@ -1,26 +1,20 @@
-<?php   
-// Theme Name: NewBlog
-// Theme URI: https://NewBlog.ru:151
-// Description: краткое-описание-темы
-// Author: hantarr01
-// Author URI: ваш-URI
-// Template:NewMaket
-// Version: 0.1
-?> 
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package NewMaket
+ */
 
+get_header();
+?>
 
-<?php get_header(); ?>
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-ggggggggggggggggggggggggggggggggggggggggg
-
-<?php get_footer(); ?>
+<?php
+get_sidebar();
+get_footer();
