@@ -60,7 +60,7 @@ li {
     list-style-type: none; 
 }
 
-header{
+header{ 
 width: 100%;
 display: table;
 background-color:#222222;
@@ -73,6 +73,8 @@ background-color:#222222;
 }
 
 .menu{
+  margin-top:0px; 
+  display: table;
   text-align: center;
   width:65%;
   color:#ebebeb; 
@@ -82,18 +84,44 @@ background-color:#222222;
 }
 
 .linksMenu{
+  padding-left:10px; 
+  padding-right:10px; 
   float:left; 
-  width:55px;
-  height:60px;
-  margin-right:40px; 
+  width:58px;
+  height:75px;
+  margin-right:10px; 
   padding-top:20px; 
 }
 
+.linksMenu:hover{
+  background-color:#393939;
+  color:#71bf44;
+  border-bottom: 5px solid #71bf44;
+  transition:0.5s; 
+}
+
+.linksMenu:hover a{
+  color:#71bf44;
+}
+
+.linksMenu2:hover a{
+  color:#71bf44;
+}
+
+.linksMenu2:hover{
+  background-color:#393939;
+  color:#71bf44;
+  border-bottom:5px solid #71bf44; 
+  transition:0.5s;
+}
+
 .linksMenu2{
+  padding-left:12px; 
+  padding-right:12px;
   float:left; 
   width:50px;
-  height:60px;
-  margin-right:40px; 
+  height:75px;
+  margin-right:10px; 
   padding-top:20px; 
 }
 
@@ -116,6 +144,7 @@ background-color:#222222;
 }
 
 .titleBlock{
+  margin-top:-12px; 
   display: table;
   width:100%;
   padding-top:15%;

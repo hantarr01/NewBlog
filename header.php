@@ -66,7 +66,7 @@
 
 		<li class="linksMenu2">
 			 <i class="Small material-icons">message</i>
-			<a href="" class="margMenu">OUR BLOG</a>
+			<a href="" class="margMenu"> OUR BLOG</a>
 		</li>
 
 		<li class="linksMenu">
@@ -87,7 +87,10 @@
 	<div class="title">News & Blog</div>
 
 	<p class="smallTitle">
-	<i class="large material-icons">home</i>/ NEWS AND BLOG
+
+	<i class="large material-icons">home</i>
+	/ NEWS AND BLOG
+
 	</p>
 
 </div>
