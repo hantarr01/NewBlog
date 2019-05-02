@@ -8,21 +8,30 @@
  *
  * @package NewMaket
  */
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+<link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oxygen" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 <link type="text/css" rel="stylesheet" href="<?= bloginfo('template_directory'); ?>/css/materialize.min.css"  media="screen,projection"/>
 <link href="<?= bloginfo('template_directory'); ?>/style.css" rel="stylesheet" type="text/css">
 
- 	<title><?php bloginfo('name'); ?></title>
+
+<title><?php bloginfo('name'); ?></title>
+
+
  	<?php wp_head();?>
 </head>
 <body>
@@ -33,42 +42,58 @@
 
 <div class="buttonsMenu">
 
-	<ul style="float: right;">
+	<ul class="menu">
 
-		<li>
-			<a href="">MENU</a>
+		<li class="linksMenu">
+			 <i class="large material-icons">home</i>
+			<a href="" class="margMenu">MENU</a>
 		</li>
 
-		<li>
-			<a href="">ABOUT US</a>
+		<li class="linksMenu">
+			 <i class="Small material-icons">insert_drive_file</i>
+			<a href="" class="margMenu">ABOUT US</a>
 		</li>
 
-		<li>
-			<a href="">PORTFOLIO</a>
+		<li class="linksMenu">
+			 <i class="Small material-icons">photo</i>
+			<a href="" class="margMenu">PORTFOLIO</a>
 		</li>
 
-		<li>
-			<a href="">SERVICES</a>
+		<li class="linksMenu">
+			 <i class="Small material-icons">work</i>
+			<a href="" class="margMenu">SERVICES</a>
 		</li>
 
-		<li>
-			<a href="">OYR BLOG</a>
+		<li class="linksMenu2">
+			 <i class="Small material-icons">message</i>
+			<a href="" class="margMenu">OUR BLOG</a>
 		</li>
 
-		<li>
-			<a href="">ELEMENTS</a>
+		<li class="linksMenu">
+			 <i class="Small material-icons">attach_file</i>
+			<a href="" class="margMenu">ELEMENTS</a>
 		</li>
 
-		<li>
-			<a href="">CONTACT US</a>
+		<li class="linksMenu2">
+			 <i class="Small material-icons">mail</i>
+			<a href="" class="margMenu">CONTACT US</a>
 		</li>
 
 	</ul>
+</div>
+
+<div class="titleBlock">
+
+	<div class="title">News & Blog</div>
+
+	<p class="smallTitle">
+	<i class="large material-icons">home</i>/ NEWS AND BLOG
+	</p>
 
 </div>
 
-<div class="titleBlock"></div>
-
-<div class="ballLogo"></div>
+<div class="ballLogo">
+	<div class="inBallLogo"><img class="responsive-img" src="<?= bloginfo('template_directory'); ?>/img/Logo.png"></div>
+</div>
 
 </header> 
